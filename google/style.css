@@ -1,0 +1,85 @@
+body{
+    background-color: ghostwhite;
+    font-family: Arial;
+    width: 500px;
+    height: 900px;
+}
+
+
+#logo{
+    transform: translateY(250px);
+    padding-left: 550px;
+    
+}
+
+#search{
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+#search label{
+    text-align: center;
+    border: none;
+}
+#search input{
+    margin-left: 450px ;
+    padding-left: 200px;
+    background-color: gainsboro;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+}
+a{
+    text-decoration: none;
+    float: right;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+
+}
+div{
+    width: 870px;
+    height: 180px;
+    background-color:;
+    margin-left: 100px;
+}
+
+.icon{
+    background-color: whitesmoke;
+    color: grey;
+    display: block;
+    padding: 10px 10px 20px 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.icon:hover{
+    background-color: #bbb;
+    color: black;
+}
+.icon::after{
+    color: whitesmoke;
+    content: "\2807";
+    float: right;
+    margin-top: -90px;
+    transition: 0.3s;
+    
+}
+.icon img{
+    background-color: #bbb;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.icon h3{
+    margin: 0;
+    font-weight: normal;
+}
+.icon:hover::after,
+.youtube:hover::after{
+    color: black;
+}
+
